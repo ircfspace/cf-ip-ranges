@@ -1,5 +1,8 @@
 <?php
 
+    // CloudFlare IP Ranges
+    // ircf.space
+
     function getIps($raw) {
         $ips = [];
         $fetch = @file_get_contents($raw);
@@ -37,3 +40,4 @@
     }
     echo $export;
 
+?>
