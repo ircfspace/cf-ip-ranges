@@ -8,4 +8,5 @@ vfarid/cf-ip-scanner-py\
 ircfspace/scanner
 
 **مشاهده خروجی:**\
-https://raw.githubusercontent.com/ircfspace/cf-ip-ranges/main/export.ipv4
+[export.ipv4](https://raw.githubusercontent.com/ircfspace/cf-ip-ranges/main/export.ipv4)
+
