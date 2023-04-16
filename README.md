@@ -1,7 +1,7 @@
 # CloudFlare IP Ranges
-**لیست آخرین رنج‌های آی‌پی کلودفلر**
+**آخرین رنج‌های آی‌پی کلودفلر**
 
-منابع:\
+گردآوری از طریق:\
 MortezaBashsiz/CFScanner\
 SafaSafari/ss-cloud-scanner\
 ircfspace/scanner
