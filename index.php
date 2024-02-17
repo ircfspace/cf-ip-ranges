@@ -35,14 +35,10 @@
     }
 
     $export = '';
-    header("Content-Type: text/plain");
     foreach( $generateList as $ip ) {
         $export .= $ip."\n";
     }
-    echo $export;
 
-    $writeFile = fopen("export.ipv4", "w") or die("Unable to open file!");
-    fwrite($writeFile, trim($export));
-    fclose($writeFile);
+    file_put_contents("export.ipv4", $export);
 
 ?>
