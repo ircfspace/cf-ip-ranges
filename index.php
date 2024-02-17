@@ -14,7 +14,7 @@
 
     $bashsizIps = getIps('https://raw.githubusercontent.com/MortezaBashsiz/CFScanner/main/config/cf.local.iplist');
     $safariIps = getIps('https://raw.githubusercontent.com/SafaSafari/ss-cloud-scanner/main/ips.txt');
-    $faridIps = getIps('https://raw.githubusercontent.com/vfarid/cf-ip-scanner-py/483b7dc7cbc1446e7e551c61932e20388830b141/cf-ipv4.txt');
+    $faridIps = getIps('https://raw.githubusercontent.com/vfarid/cf-ip-scanner/main/ipv4.txt');
     $ircfIps = getIps('https://raw.githubusercontent.com/ircfspace/scanner/main/ipv4.list');
 
     $newList = array_merge($bashsizIps, $safariIps, $faridIps, $ircfIps);
