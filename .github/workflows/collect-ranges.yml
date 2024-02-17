@@ -1,0 +1,23 @@
+name: "Collect Ranges"
+
+on:
+  push:
+    branches: [ "main" ]
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Collect Ranges
+      run: |
+          php -S index.php
+          git config --global user.email "vahidfarid@gmail.com"
+          git config --global user.name "Vahid Farid"
+          git add -A
+          git commit -m "Automatic update"
+          git push
