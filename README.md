@@ -7,5 +7,5 @@ SafaSafari/ss-cloud-scanner\
 vfarid/cf-ip-scanner-py\
 ircfspace/scanner
 
-**مشاهده خروجی: **\
+**مشاهده خروجی:**\
 https://raw.githubusercontent.com/ircfspace/cf-ip-ranges/main/export.ipv4
