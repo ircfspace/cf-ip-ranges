@@ -40,4 +40,8 @@
     }
     echo $export;
 
+    $writeFile = fopen("export.ipv4", "w") or die("Unable to open file!");
+    fwrite($writeFile, trim($export));
+    fclose($writeFile);
+
 ?>
