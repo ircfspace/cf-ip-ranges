@@ -35,7 +35,7 @@
 
     $export = '';
     header("Content-Type: text/plain");
-    foreach( $newList as $ip ) {
+    foreach( $generateList as $ip ) {
         $export .= $ip."\n";
     }
     echo $export;
