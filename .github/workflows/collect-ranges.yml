@@ -15,9 +15,9 @@ jobs:
     - uses: actions/checkout@v3
     - name: Collect Ranges
       run: |
-          php -S index.php
-          git config --global user.email "vahidfarid@gmail.com"
-          git config --global user.name "Vahid Farid"
+          php -S localhost:8080 index.php
+          git config --global user.email "ifcfspace@gmail.com"
+          git config --global user.name "ifcfspace"
           git add -A
           git commit -m "Automatic update"
           git push
